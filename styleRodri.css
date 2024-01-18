@@ -12,6 +12,8 @@ body {
     flex-direction: column;
     height: 100vh;
     gap: 12px;
+    background-color: #0e001e;
+    color: #d4d4d4;
 }
 
 h1 {
@@ -24,6 +26,21 @@ img {
 }
 
 ol {
-    color: darkolivegreen;
+    color: rgb(174, 240, 60);
     font-size: 16px;
+}
+
+button {
+    padding: 12px 24px;
+    text-transform: uppercase;
+    border: 1px solid #d4d4d4;
+    color: #d4d4d4;
+    background-color: transparent;
+    border-radius: 12px;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: #d4d4d420;
+    cursor: pointer;
 }
