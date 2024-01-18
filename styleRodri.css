@@ -22,3 +22,8 @@ img {
     width: 300px;
     border-radius: 12px;
 }
+
+ol {
+    color: darkolivegreen;
+    font-size: 16px;
+}
